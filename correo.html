@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enviar correo</title>
+</head>
+
+<body>
+	<table width="400" align="center" cellspacing="0" cellpadding="10" border="1">
+        <tr>
+            <th colspan="2" >Contacto</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label><br />
+                    <input type="text" id="nombre" name="nombre" style="width: 380px;" required><br /><br />
+
+                    <label for="correo">Correo Electronico:</label><br />
+                    <input type="email" id="correo" name="correo" style="width: 380px;" required><br /><br />
+
+                    <label for="asunto">Asunto:</label><br />
+                    <select id="asunto" name="asunto" style="width: 380px;">
+                        <option value="Escuela">Escuela</option>
+                        <option value="Trabajo">Trabajo</option>
+                        <option value="Personal">Personal</option>
+                    </select><br /><br />
+
+                    <label for="mensaje">Mensaje:</label><br />
+                    <textarea id="mensaje" name="mensaje" rows="4" style="width: 380px;" required></textarea><br /><br />
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
